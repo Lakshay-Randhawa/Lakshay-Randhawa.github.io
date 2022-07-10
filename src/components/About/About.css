@@ -1,0 +1,18 @@
+.about-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    gap: 7vh;
+}
+.about-heading{
+    color: var(--orange);
+    font-size: 40px;
+}
+
+.about-content{
+    width: 50%;
+    
+}
+
