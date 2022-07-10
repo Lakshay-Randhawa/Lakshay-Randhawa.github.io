@@ -7,9 +7,12 @@ function About() {
         <div className='about-heading'>
             About Me
         </div>
-        <div className='about-content'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur enim beatae quae quisquam et aspernatur sed dolorem laudantium odio quibusdam repudiandae, commodi, quaerat quis, assumenda eligendi temporibus iure cumque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa rerum tenetur ipsam sapiente vel suscipit quos dignissimos ab enim asperiores accusantium veritatis omnis, officia nobis magni itaque. Nostrum, iure iste. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique inventore deleniti sapiente asperiores at veritatis et assumenda reprehenderit ipsum eaque quis maxime molestias nostrum aut nam, a porro distinctio architecto. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus veritatis accusamus modi eos labore debitis repudiandae neque minima aspernatur incidunt similique quis, amet natus ipsa rerum soluta fugit, non ab. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur magnam dolores odio omnis, quo veritatis unde perspiciatis est aliquid esse tempore ratione ut sapiente. Amet odio et sunt. Optio, atque?
-        Facilis non quos quia! Eos, ducimus iusto! Eaque nostrum est consequuntur, pariatur libero minus voluptatem. Impedit quas atque ut modi, pariatur, sapiente sit numquam, dolore amet provident ratione. Vel, rem.
-        Ex nostrum molestiae ea soluta veniam modi architecto reprehenderit recusandae id expedita temporibus impedit itaque sequi laudantium esse libero dolores ipsam, voluptatum qui iusto earum accusantium eaque deleniti! Eius, dolorum.</div>
+        <div className='about-content'>
+        I am enthusiastic software developer who is passionate about technology and has a strong virtue of solving day-to-day problems with technology. Before starting my journey in this field of innovation and creativity, I had no idea what was coming next; But after getting into it, through academic teachings and self learning, I had strong feeling that this is exactly what I want to in my life. Most of my learning so far has been based off curiosity and the urge to make something new using latest technology. 
+        
+I also believe that being a software developer is not just about your technical skills. I have carved my personality and attitude in such a way that I am perfectly able to work in any team environment and handle any situation whether it is accepting criticism positively or trying to express my point. 
+ 
+        </div>
         <button className='button resume'><a href={resume} download={resume} style={{textDecoration:'none'}}>Download resume</a></button>
      </div>
   )
