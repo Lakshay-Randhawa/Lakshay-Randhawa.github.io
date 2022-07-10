@@ -2,19 +2,14 @@ import React, { useContext } from "react";
 import "./Project.css";
 import { Swiper, SwiperSlide } from "swiper/react"
 import "swiper/css";
-import Sidebar from "../../img/sidebar.png";
-import Ecommerce from "../../img/ecommerce.png";
-import HOC from "../../img/hoc.png";
-import MusicApp from "../../img/musicapp.png";
-// import { themeContext } from "../../Context";
+
+import fitness from "../../img/feel-good-first.PNG";
+
+
 const projects = () => {
-  // const theme = useContext(themeContext);
-  // const darkMode = theme.state.darkMode;
+
   return (
     <div className="projects" id="projects">
-      {/* heading */}
-      {/* <span style={{color: darkMode?'white': ''}}>Recent Projects</span>
-      <span>projects</span> */}
 
       <span className="projects-header">Recent Projects</span>
 
@@ -25,17 +20,23 @@ const projects = () => {
         grabCursor={true}
         className="projects-slider"
       >
-        <SwiperSlide>
-          <img src={Sidebar} alt="" />
+        <SwiperSlide className="project">
+          <span className="project-wrapper">
+            <img src={fitness} alt="" />
+            <span className="project-header">Feel Good First</span>
+            <div className="in-prog">In progress</div>
+            <span className="project-content">It is fitness website which is created with MERN stack and allows trainers and clinents to interact.</span>
+            <span></span>
+          </span>
         </SwiperSlide>
         <SwiperSlide>
-          <img src={Ecommerce} alt="" />
+          <img src={fitness}  alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={MusicApp} alt="" />
+          <img src={fitness} alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={HOC} alt="" />
+          <img src={fitness}  alt="" />
         </SwiperSlide>
       </Swiper>
     </div>
