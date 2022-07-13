@@ -36,7 +36,7 @@ function Intro() {
               }}/>
           
         </div>
-        <button className="button i-button">Hire me</button>
+        {/* <button className="button i-button">Hire me</button> */}
         <div className='i-icons'>
              <a href='https://github.com/Lakshay-Randhawa'><img src={github} /></a>
              <a href='https://www.linkedin.com/in/lakshay-randhawa-8a59751b7/'><img src={linkedin} /></a>
