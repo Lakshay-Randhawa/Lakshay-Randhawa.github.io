@@ -50,7 +50,7 @@ function Intro() {
       <img src={me}alt="" />
 
       <motion.img
-          initial={{ left: "-34%", top:"-33%", height:'150px' }}
+          initial={{ left: "-44%", top:"-33%", height:'150px' }}
           whileInView={{ left: "-24%" }}
           transition={transition}
           src={glassesimoji}

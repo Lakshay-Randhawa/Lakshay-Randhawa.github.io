@@ -12,7 +12,7 @@ function Navbar() {
             </div>
            
          </div>
-         <div className='nav-right'>
+         {/* <div className='nav-right'>
             <div className='nav-list'>
                 <ul>
                     <li>Home</li>
@@ -22,7 +22,7 @@ function Navbar() {
                 </ul>
             </div>
             <span>Toggle switch</span>
-         </div>
+         </div> */}
       </div>
     </>
   )

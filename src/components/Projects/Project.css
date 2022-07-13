@@ -1,64 +1,73 @@
 .projects {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    height: 70vh;
-    margin: 250px 0px;
-  }
- 
-   .projects-header{
-    color: var(--orange);
-    font-size: 50px;
-   }
-  /* slider */
-  .projects .swiper{
-      overflow: visible!important;
-  }
-  
-  .projects-slider {
-    margin-top: 3rem;
-    width: 100%;
-  }
-  
-  .projects-slider .swiper-slide {
-    width: 20rem;
-  }
-  .projects img {
-    width: 19rem;
-    filter: drop-shadow(-12px 15px 13px rgba(0, 0, 0, 0.25));
-    border-radius: 19px;
-    margin-bottom: 40px;
-    transform: scale(1);
-    transition: 0.3s ease-in-out;
-    display: inline-block;
-  }
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 70vh;
+  margin: 250px 0px;
+}
 
-  .projects img:hover {
-    transform: scale(1.1);
-  }
+.projects-header {
+  color: var(--orange);
+  font-size: 50px;
+}
 
-  /* Single slide style */
+/* slider */
+.projects .swiper {
+  overflow: visible !important;
+}
 
-  .project-wrapper{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 5px;
-     width: 70%;
-  }
+.projects-slider {
+  margin-top: 3rem;
+  width: 100%;
+}
 
-  .project-header{
-    color: var(--orange);
-    font-size: 28px;
-  }
+.projects-slider .swiper-slide {
+  width: 20rem;
+}
 
-  .in-prog{
-    border-radius: 20px;
-    width: 140px;
-    border: 2px solid green;
-    text-align: center;
-    margin: 10px 0px;
-  }
-  
+.projects img {
+  width: 19rem;
+  filter: drop-shadow(-12px 15px 13px rgba(0, 0, 0, 0.25));
+  border-radius: 19px;
+  margin-bottom: 40px;
+  transform: scale(1);
+  transition: 0.3s ease-in-out;
+  display: inline-block;
+}
 
+.projects img:hover {
+  transform: scale(1.1);
+  /* cursor: pointer; */
+}
+
+/* Single slide style */
+
+.project-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
+  width: 70%;
+}
+
+.in-prog{
+  cursor: not-allowed;
+}
+
+.completed > img {
+  cursor: pointer;
+}
+
+.project-header {
+  color: var(--orange);
+  font-size: 28px;
+}
+
+.prog-badge {
+  border-radius: 20px;
+  width: 140px;
+  text-align: center;
+  margin: 10px 0px;
+  border: 2px solid green;
+}
